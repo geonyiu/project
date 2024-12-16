@@ -89,6 +89,6 @@ feedback = st.text_area(
 # 소감 저장 (필요 시)
 if st.button("소감 제출"):
     if feedback.strip():
-        st.success("소감을 제출해주셔서 감사합니다!")
+        st.success("소감 제출 완료! 오늘 수업도 수학적 배움이 충분했나요?? :)")
     else:
         st.warning("소감을 입력해주세요!")
